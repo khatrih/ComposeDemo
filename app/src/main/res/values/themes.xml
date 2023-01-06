@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ComposeDemo" parent="android:Theme.Material.Light.NoActionBar">
+        <!--<item name="android:statusBarColor">@color/purple_700</item>-->
+        <item name="android:statusBarColor">@color/status_bar</item>
+    </style>
+
+    <style name="Theme.ComposeDemo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ComposeDemo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ComposeDemo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
